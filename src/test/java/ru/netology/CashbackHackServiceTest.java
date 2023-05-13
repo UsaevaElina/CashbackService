@@ -32,7 +32,7 @@ public class CashbackHackServiceTest {
     public void testShouldAmount1001() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1001;
-        int expected = 0;
+        int expected = 999;
         int actual = service.remain(amount);
         Assert.assertEquals(expected,actual);
     }
